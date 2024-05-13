@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: inherit;
+}
+.head {
+    background-color: #20202170;
+    color: rgb(232, 32, 32);
+    display: flex;
+    font-size: x-large;
+    font-family: monospace;
+    padding: 0 15px;
+    margin: 15px 0;
+    width: 95%;
+    align-items: center;
+    
+}
+.head
+body {
+    width: 100%;
+    height: 100vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+   
+}
+
+
+.footr {
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    
+}
+.footr-item {
+    padding: 16px;
+    display: inline-block;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.footr li a:hover {
+    background-color: indianred;
+    border-radius: 10px;
+
+}
+.active {
+    
+    background-color: indianred;
+}
+li{
+    color: white;
+    display: inline;
+    padding:20px ;
+}
+.logo {
+    max-width: 100px; 
+    height: 2cm; 
+    display: inline-block; 
+    vertical-align: middle; 
+}
+input{
+    width: 100%;
+    height: 1cm;
+     padding: 10pxs;
+     border-radius: 10px;
+     background: transparent;
+    
+}
+.side-bar-link{
+    display: block;
+    margin: 50px;
+    padding: 15px;
+    font-family: serif;
+    font-size: larger;
+
+}
+.container input placeholder-shown{
+    color: aliceblue;
+    
+}
+
+
+
+.sidebar {
+background-color: black;
+width: 150px;
+}
+i{
+    color: blue
+    
+}.end{
+    color: azure;
+    background-color: orange;
+    display: flex;
+    margin: 16%;
+    padding: 0px 40px;
+    align-items: center;
+    width: 400px;
+    top: 100px;
+    
+}
+
